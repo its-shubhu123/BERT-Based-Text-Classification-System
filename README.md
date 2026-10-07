@@ -2,26 +2,6 @@
 
 An end-to-end Natural Language Processing (NLP) pipeline designed to classify domain-specific text into multiple categories. This project leverages transfer learning by fine-tuning a pretrained **BERT (`bert-base-uncased`)** transformer model and benchmarks it against a traditional **TF-IDF + Logistic Regression** baseline.
 
----
-
-## 📌 Table of Contents
-- [Project Overview](#-project-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Tech Stack](#-tech-stack)
-- [Repository Structure](#-repository-structure)
-- [Installation & Setup](#-installation--setup)
-- [Usage](#-usage)
-  - [1. Data Preparation](#1-data-preparation)
-  - [2. Baseline Model Training](#2-baseline-model-training)
-  - [3. BERT Fine-Tuning](#3-bert-fine-tuning)
-  - [4. Single Prediction / Inference](#4-single-prediction--inference)
-- [Experimental Results](#-experimental-results)
-- [Error Analysis](#-error-analysis)
-- [License](#-license)
-
----
-
 ## 📖 Project Overview
 
 Traditional Bag-of-Words and TF-IDF models often struggle with context, polysemy, and long-range semantic dependencies in textual data. This project implements a modern deep learning pipeline using **BERT (Bidirectional Encoder Representations from Transformers)** to capture bidirectional contextual information and achieve superior classification performance across complex categories.
