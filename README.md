@@ -56,20 +56,3 @@ Machine Learning & Baselines: Scikit-learn
 Data Manipulation: Pandas, NumPy
 Visualization: Matplotlib, Seaborn
 
-├── data/
-│   ├── raw/                  # Raw dataset files (CSV/JSON)
-│   └── processed/            # Cleaned train/val/test splits
-├── notebooks/
-│   ├── 01_eda_and_cleaning.ipynb
-│   └── 02_error_analysis.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── dataset.py            # PyTorch Dataset & DataLoader implementation
-│   ├── preprocess.py         # Text cleaning and preprocessing routines
-│   ├── baseline.py           # TF-IDF + Logistic Regression baseline
-│   ├── train.py              # BERT fine-tuning script
-│   ├── evaluate.py           # Evaluation metrics & confusion matrix plot
-│   └── predict.py            # Inference script for new text samples
-├── saved_models/             # Checkpoints and serialized model weights
-├── requirements.txt          # Python dependencies
-└── README.md
